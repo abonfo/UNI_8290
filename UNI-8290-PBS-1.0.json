@@ -1,0 +1,720 @@
+{
+    "OrganizationCode": "AAB",
+    "DomainCode": "UNI8290",
+    "DomainVersion": "1.0",
+    "DomainName": "UNI 8290",
+    "ReleaseDate": "2023-11-01T00:00:00",
+    "Status": "Preview",
+    "MoreInfoUrl": "https://studio.andrebonfanti.it/bsdd-dictionary-uni-8290-classification/",
+    "UseOwnUri": false,
+    "LanguageIsoCode": "it-IT",
+    "LanguageOnly": true,
+    "License": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "QualityAssuranceProcedure": "Private",
+    "Classifications": [
+      {
+        "ClassificationType": "Class",
+        "Code": "1.0.0",
+        "ReferenceCode": null,
+        "Name": "Struttura portante",
+        "Definition": "Insieme delle unità tecnologiche e degli elementi tecnici appartenenti al sistema edilizio aventi funzione di sostenere i carichi del sistema edilizio stesso e di collegare staticamente le sue parti",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcColumnType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcFootingType",
+          "IfcPileType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcEarthworksElement",
+          "IfcEarthworksFill",
+          "IfcReinforcedSoil",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.0.0", 
+        "Code": "1.1.0",
+        "ReferenceCode": null,
+        "Name": "Struttura di fondazione",
+        "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di trasmettere i carichi del sistema edilizio stesso al terreno",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcPileType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcFootingType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.1.0", 
+        "Code": "1.1.1",
+        "ReferenceCode": null,
+        "Name": "Strutture di fondazione dirette",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcFootingType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.1.0", 
+        "Code": "1.1.2",
+        "ReferenceCode": null,
+        "Name": "Strutture di fondazione indirette",
+        "RelatedIfcEntityNamesList": [
+          "IfcPileType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcFootingType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.0.0", 
+        "Code": "1.2.0",
+        "ReferenceCode": null,
+        "Name": "Struttura di elevazione",
+        "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di sostenere i carichi verticali e/o orizzontali, trasmettendoli alle strutture di fondazione",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcColumnType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.2.0", 
+        "Code": "1.2.1",
+        "ReferenceCode": null,
+        "Name": "Strutture di elevazione verticali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcColumnType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.2.0", 
+        "Code": "1.2.2",
+        "ReferenceCode": null,
+        "Name": "Strutture di elevazione orizzontali e inclinate",
+        "RelatedIfcEntityNamesList": [
+          "IfcColumnType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.2.0", 
+        "Code": "1.2.3",
+        "ReferenceCode": null,
+        "Name": "Strutture di elevazione spaziali",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.0.0", 
+        "Code": "1.3.0",
+        "ReferenceCode": null,
+        "Name": "Struttura di contenimento",
+        "Definition": "Insieme degli elementi tecnici funzionalmente connessi con il sistema edilizio aventi funzione di sostenere i carichi derivanti dal terreno",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcSlabType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcEarthworksElement",
+          "IfcEarthworksFill",
+          "IfcReinforcedSoil",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.3.0", 
+        "Code": "1.3.1",
+        "ReferenceCode": null,
+        "Name": "Strutture di contenimento verticali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcEarthworksElement",
+          "IfcEarthworksFill",
+          "IfcReinforcedSoil",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "1.3.0", 
+        "Code": "1.3.2",
+        "ReferenceCode": null,
+        "Name": "Strutture di contenimento orizzontali",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcCaissonFoundationType",
+          "IfcDeepFoundationType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcTendonType",
+          "IfcTendonAnchorType",
+          "IfcTendonConduitType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcEarthworksElement",
+          "IfcEarthworksFill",
+          "IfcReinforcedSoil",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "Code": "2.0.0",
+        "ReferenceCode": null,
+        "Name": "Chiusura",
+        "Definition": "Insieme delle unità tecnologiche e degli elementi tecnici del sistema edilizio aventi funzione di separare e conformare gli spazi interni del sistema edilizio stesso rispetto all'esterno",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcCurtainWallType",
+          "IfcWindowType",
+          "IfcShadingDeviceType",
+          "IfcSlabType",
+          "IfcRoofType",
+          "IfcDoorType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.0.0",
+        "Code": "2.1.0",
+        "ReferenceCode": null,
+        "Name": "Chiusura verticale",
+        "Definition": "Insieme degli elementi tecnici verticali del sistema edilizio aventi funzione di separare gli spazi interni del sistema edilizio stesso rispetto all'esterno",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcCurtainWallType",
+          "IfcWindowType",
+          "IfcShadingDeviceType",
+          "IfcDoorType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.1.0",
+        "Code": "2.1.1",
+        "ReferenceCode": null,
+        "Name": "Pareti perimetrali verticali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcCurtainWallType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.1.0",
+        "Code": "2.1.2",
+        "ReferenceCode": null,
+        "Name": "Infissi esterni verticali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWindowType",
+          "IfcShadingDeviceType",
+          "IfcDoorType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.0.0",
+        "Code": "2.2.0",
+        "ReferenceCode": null,
+        "Name": "Chiusura orizzontale inferiore",
+        "Definition": "Insieme degli elementi tecnici orizzontali del sistema edilizio aventi funzione di separare gli spazi interni del sistema edilizio stesso dal terreno sottostante o dalle strutture di fondazione",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcWindowType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.2.0",
+        "Code": "2.2.1",
+        "ReferenceCode": null,
+        "Name": "Solai a terra",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.2.0",
+        "Code": "2.2.2",
+        "ReferenceCode": null,
+        "Name": "Infissi orizzontali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWindowType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.0.0",
+        "Code": "2.3.0",
+        "ReferenceCode": null,
+        "Name": "Chiusura orizzontale su spazi esterni",
+        "Definition": "Insieme degli elementi tecnici orizzontali del sistema edilizio aventi funzione di separare gli spazi interni del sistema edilizio stesso da spazi esterni sottostanti",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.3.0",
+        "Code": "2.3.1",
+        "ReferenceCode": null,
+        "Name": "Solai su spazi aperti",
+        "RelatedIfcEntityNamesList": [
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.0.0",
+        "Code": "2.4.0",
+        "ReferenceCode": null,
+        "Name": "Chiusura superiore",
+        "Definition": "Insieme degli elementi tecnici orizzontali del sistema edilizio aventi funzione di separare gli spazi interni del sistema edilizio stesso dallo spazio esterno sovrastante",
+        "RelatedIfcEntityNamesList": [
+          "IfcRoofType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcWindowType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.4.0",
+        "Code": "2.4.1",
+        "ReferenceCode": null,
+        "Name": "Coperture",
+        "RelatedIfcEntityNamesList": [
+          "IfcRoofType",
+          "IfcSlabType",
+          "IfcBeamType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "2.4.0",
+        "Code": "2.4.2",
+        "ReferenceCode": null,
+        "Name": "Infissi esterni orizzontali",
+        "RelatedIfcEntityNamesList": [
+          "IfcWindowType",
+          "IfcBearingType",
+          "IfcPlateType",
+          "IfcReinforcingBarType",
+          "IfcReinforcingMeshType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      }
+    ]
+  }
