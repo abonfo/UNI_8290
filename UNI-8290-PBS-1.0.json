@@ -1,5 +1,5 @@
 {
-    "OrganizationCode": "AAB",
+    "OrganizationCode": "AnBo",
     "DomainCode": "UNI8290",
     "DomainVersion": "1.0",
     "DomainName": "UNI 8290",
@@ -12,9 +12,9 @@
     "License": "CC BY-SA 4.0",
     "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "QualityAssuranceProcedure": "Private",
-    "Classifications": [
+    "Classes": [
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "1.0.0",
         "ReferenceCode": null,
         "Name": "Struttura portante",
@@ -54,8 +54,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.0.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.0.0", 
         "Code": "1.1.0",
         "ReferenceCode": null,
         "Name": "Struttura di fondazione",
@@ -91,8 +91,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.1.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.1.0", 
         "Code": "1.1.1",
         "ReferenceCode": null,
         "Name": "Strutture di fondazione dirette",
@@ -126,8 +126,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.1.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.1.0", 
         "Code": "1.1.2",
         "ReferenceCode": null,
         "Name": "Strutture di fondazione indirette",
@@ -158,8 +158,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.0.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.0.0", 
         "Code": "1.2.0",
         "ReferenceCode": null,
         "Name": "Struttura di elevazione",
@@ -191,8 +191,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.2.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.2.0", 
         "Code": "1.2.1",
         "ReferenceCode": null,
         "Name": "Strutture di elevazione verticali",
@@ -223,8 +223,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.2.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.2.0", 
         "Code": "1.2.2",
         "ReferenceCode": null,
         "Name": "Strutture di elevazione orizzontali e inclinate",
@@ -254,8 +254,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.2.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.2.0", 
         "Code": "1.2.3",
         "ReferenceCode": null,
         "Name": "Strutture di elevazione spaziali",
@@ -284,8 +284,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.0.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.0.0", 
         "Code": "1.3.0",
         "ReferenceCode": null,
         "Name": "Struttura di contenimento",
@@ -320,8 +320,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.3.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.3.0", 
         "Code": "1.3.1",
         "ReferenceCode": null,
         "Name": "Strutture di contenimento verticali",
@@ -354,8 +354,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "1.3.0", 
+        "ClassType": "Class",
+        "ParentClassCode": "1.3.0", 
         "Code": "1.3.2",
         "ReferenceCode": null,
         "Name": "Strutture di contenimento orizzontali",
@@ -388,7 +388,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "2.0.0",
         "ReferenceCode": null,
         "Name": "Chiusura",
@@ -422,8 +422,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.0.0",
         "Code": "2.1.0",
         "ReferenceCode": null,
         "Name": "Chiusura verticale",
@@ -455,8 +455,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.1.0",
         "Code": "2.1.1",
         "ReferenceCode": null,
         "Name": "Pareti perimetrali verticali",
@@ -484,8 +484,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.1.0",
         "Code": "2.1.2",
         "ReferenceCode": null,
         "Name": "Infissi esterni verticali",
@@ -510,8 +510,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.0.0",
         "Code": "2.2.0",
         "ReferenceCode": null,
         "Name": "Chiusura orizzontale inferiore",
@@ -539,8 +539,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.2.0",
         "Code": "2.2.1",
         "ReferenceCode": null,
         "Name": "Solai a terra",
@@ -566,8 +566,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.2.0",
         "Code": "2.2.2",
         "ReferenceCode": null,
         "Name": "Infissi orizzontali",
@@ -592,8 +592,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.0.0",
         "Code": "2.3.0",
         "ReferenceCode": null,
         "Name": "Chiusura orizzontale su spazi esterni",
@@ -620,8 +620,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.3.0",
         "Code": "2.3.1",
         "ReferenceCode": null,
         "Name": "Solai su spazi aperti",
@@ -647,8 +647,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.0.0",
         "Code": "2.4.0",
         "ReferenceCode": null,
         "Name": "Chiusura superiore",
@@ -678,8 +678,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.4.0",
         "Code": "2.4.1",
         "ReferenceCode": null,
         "Name": "Coperture",
@@ -707,8 +707,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "2.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "2.4.0",
         "Code": "2.4.2",
         "ReferenceCode": null,
         "Name": "Infissi esterni orizzontali",
@@ -733,7 +733,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "3.0.0",
         "ReferenceCode": null,
         "Name": "Partizione interna",
@@ -767,8 +767,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.0.0",
         "Code": "3.1.0",
         "ReferenceCode": null,
         "Name": "Partizione interna verticale",
@@ -798,8 +798,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.1.0",
         "Code": "3.1.1",
         "ReferenceCode": null,
         "Name": "Pareti interne verticali",
@@ -825,8 +825,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.1.0",
         "Code": "3.1.2",
         "ReferenceCode": null,
         "Name": "Infissi interni verticali",
@@ -851,8 +851,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.1.0",
         "Code": "3.1.3",
         "ReferenceCode": null,
         "Name": "Elementi di protezione",
@@ -876,8 +876,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.0.0",
         "Code": "3.2.0",
         "ReferenceCode": null,
         "Name": "Partizione interna orizzontale",
@@ -905,8 +905,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.2.0",
         "Code": "3.2.1",
         "ReferenceCode": null,
         "Name": "Solai",
@@ -932,8 +932,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.2.0",
         "Code": "3.2.2",
         "ReferenceCode": null,
         "Name": "Soppalchi",
@@ -959,8 +959,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.2.0",
         "Code": "3.2.3",
         "ReferenceCode": null,
         "Name": "Infissi interni orizzontali",
@@ -984,8 +984,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.0.0",
         "Code": "3.3.0",
         "ReferenceCode": null,
         "Name": "Partizione interna inclinata",
@@ -1015,8 +1015,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.3.0",
         "Code": "3.3.1",
         "ReferenceCode": null,
         "Name": "Scale interne",
@@ -1044,8 +1044,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "3.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "3.3.0",
         "Code": "3.3.2",
         "ReferenceCode": null,
         "Name": "Rampe interne",
@@ -1072,7 +1072,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "4.0.0",
         "ReferenceCode": null,
         "Name": "Partizione esterna",
@@ -1103,8 +1103,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.0.0",
         "Code": "4.1.0",
         "ReferenceCode": null,
         "Name": "Partizione esterna verticale",
@@ -1128,8 +1128,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.1.0",
         "Code": "4.1.1",
         "ReferenceCode": null,
         "Name": "Elementi di protezione",
@@ -1152,8 +1152,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.1.0",
         "Code": "4.1.2",
         "ReferenceCode": null,
         "Name": "Elementi di separazione",
@@ -1176,8 +1176,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.0.0",
         "Code": "4.2.0",
         "ReferenceCode": null,
         "Name": "Partizione esterna orizzontale",
@@ -1204,8 +1204,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.2.0",
         "Code": "4.2.1",
         "ReferenceCode": null,
         "Name": "Balconi e logge",
@@ -1231,8 +1231,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.2.0",
         "Code": "4.2.2",
         "ReferenceCode": null,
         "Name": "Passerelle",
@@ -1258,8 +1258,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.0.0",
         "Code": "4.3.0",
         "ReferenceCode": null,
         "Name": "Partizione esterna inclinata",
@@ -1289,8 +1289,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.3.0",
         "Code": "4.3.1",
         "ReferenceCode": null,
         "Name": "Scale esterne",
@@ -1318,8 +1318,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "4.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "4.3.0",
         "Code": "4.3.2",
         "ReferenceCode": null,
         "Name": "Rampe esterne",
@@ -1346,7 +1346,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "5.0.0",
         "ReferenceCode": null,
         "Name": "Impianto di fornitura servizi",
@@ -1456,8 +1456,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.1.0",
         "ReferenceCode": null,
         "Name": "Impianto di climatizzazione",
@@ -1561,8 +1561,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -1624,8 +1624,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.1.2",
         "ReferenceCode": null,
         "Name": "Gruppi termici",
@@ -1692,8 +1692,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.3",
         "ReferenceCode": null,
         "Name": "Centrali di trattamento fluidi",
@@ -1753,8 +1753,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.4",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione e terminali",
@@ -1814,8 +1814,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.5",
         "ReferenceCode": null,
         "Name": "Reti di scarico condensa",
@@ -1866,8 +1866,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.6",
         "ReferenceCode": null,
         "Name": "Canne di esalazione",
@@ -1924,8 +1924,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.2.0",
         "ReferenceCode": null,
         "Name": "Impianto idrosanitario",
@@ -2015,8 +2015,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.1",
         "ReferenceCode": null,
         "Name": "Allacciamenti",
@@ -2073,8 +2073,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.2",
         "ReferenceCode": null,
         "Name": "Macchine idrauliche",
@@ -2157,8 +2157,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.3",
         "ReferenceCode": null,
         "Name": "Accumuli",
@@ -2242,8 +2242,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.4",
         "ReferenceCode": null,
         "Name": "Riscaldatori",
@@ -2328,8 +2328,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.5",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione acqua fredda e terminali",
@@ -2410,8 +2410,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.6",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione acqua calda e terminali",
@@ -2492,8 +2492,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.7",
         "ReferenceCode": null,
         "Name": "Reti di ricircolo dell'acqua calda",
@@ -2574,8 +2574,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.2.0",
         "Code": "5.2.8",
         "ReferenceCode": null,
         "Name": "Apparecchi sanitari",
@@ -2610,8 +2610,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.3.0",
         "ReferenceCode": null,
         "Name": "Impianto di smaltimento liquidi",
@@ -2672,8 +2672,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.3.0",
         "Code": "5.3.1",
         "ReferenceCode": null,
         "Name": "Reti di scarico acque fecali",
@@ -2733,8 +2733,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.3.0",
         "Code": "5.3.2",
         "ReferenceCode": null,
         "Name": "Reti di scarico acque domestiche",
@@ -2794,8 +2794,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.3.0",
         "Code": "5.3.3",
         "ReferenceCode": null,
         "Name": "Reti di scarico acque meteoriche",
@@ -2855,8 +2855,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.3.0",
         "Code": "5.3.4",
         "ReferenceCode": null,
         "Name": "Reti di ventilazione secondaria",
@@ -2914,8 +2914,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.4.0",
         "ReferenceCode": null,
         "Name": "Impianto di smaltimento aeriformi",
@@ -2999,8 +2999,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.4.0",
         "Code": "5.4.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -3055,8 +3055,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.4.0",
         "Code": "5.4.2",
         "ReferenceCode": null,
         "Name": "Macchine",
@@ -3127,8 +3127,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.4.0",
         "Code": "5.4.3",
         "ReferenceCode": null,
         "Name": "Reti di canalizzazione",
@@ -3186,8 +3186,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.5.0",
         "ReferenceCode": null,
         "Name": "Impianto di smaltimento solidi",
@@ -3237,8 +3237,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.5.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.5.0",
         "Code": "5.5.1",
         "ReferenceCode": null,
         "Name": "Canne di caduta",
@@ -3284,8 +3284,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.5.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.5.0",
         "Code": "5.5.2",
         "ReferenceCode": null,
         "Name": "Canne di esalazione",
@@ -3330,8 +3330,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.6.0",
         "ReferenceCode": null,
         "Name": "Impianto di distribuzione gas",
@@ -3418,8 +3418,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.6.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.6.0",
         "Code": "5.6.1",
         "ReferenceCode": null,
         "Name": "Allacciamenti",
@@ -3497,8 +3497,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.6.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.6.0",
         "Code": "5.6.2",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione e terminali",
@@ -3581,8 +3581,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.7.0",
         "ReferenceCode": null,
         "Name": "Impianto elettrico",
@@ -3660,8 +3660,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.7.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.7.0",
         "Code": "5.7.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -3713,8 +3713,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.7.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.7.0",
         "Code": "5.7.2",
         "ReferenceCode": null,
         "Name": "Allacciamenti",
@@ -3767,8 +3767,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.7.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.7.0",
         "Code": "5.7.3",
         "ReferenceCode": null,
         "Name": "Apparecchiature elettriche",
@@ -3831,8 +3831,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.7.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.7.0",
         "Code": "5.7.4",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione e terminali",
@@ -3890,8 +3890,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.8.0",
         "ReferenceCode": null,
         "Name": "Impianto di telecomunicazioni",
@@ -3962,8 +3962,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.8.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.8.0",
         "Code": "5.8.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -4015,8 +4015,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.8.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.8.0",
         "Code": "5.8.2",
         "ReferenceCode": null,
         "Name": "Macchine",
@@ -4072,8 +4072,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.8.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.8.0",
         "Code": "5.8.3",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione e terminali",
@@ -4133,8 +4133,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.0.0",
         "Code": "5.9.0",
         "ReferenceCode": null,
         "Name": "Impianto fisso di trasporto",
@@ -4212,8 +4212,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.9.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.9.0",
         "Code": "5.9.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -4285,8 +4285,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.9.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.9.0",
         "Code": "5.9.2",
         "ReferenceCode": null,
         "Name": "Macchine",
@@ -4350,8 +4350,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "5.9.0",
+        "ClassType": "Class",
+        "ParentClassCode": "5.9.0",
         "Code": "5.9.3",
         "ReferenceCode": null,
         "Name": "Parti mobili",
@@ -4409,7 +4409,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "6.0.0",
         "ReferenceCode": null,
         "Name": "Impianto di sicurezza",
@@ -4491,8 +4491,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.0.0",
         "Code": "6.1.0",
         "ReferenceCode": null,
         "Name": "Impianto antincendio",
@@ -4574,8 +4574,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.1.0",
         "Code": "6.1.1",
         "ReferenceCode": null,
         "Name": "Allacciamenti",
@@ -4636,8 +4636,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.1.0",
         "Code": "6.1.2",
         "ReferenceCode": null,
         "Name": "Rilevatori e trasduttori",
@@ -4698,8 +4698,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.1.0",
         "Code": "6.1.3",
         "ReferenceCode": null,
         "Name": "Reti di distribuzione e terminali",
@@ -4760,8 +4760,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.1.0",
         "Code": "6.1.4",
         "ReferenceCode": null,
         "Name": "Allarmi",
@@ -4827,8 +4827,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.0.0",
         "Code": "6.2.0",
         "ReferenceCode": null,
         "Name": "Impianto di messa a terra",
@@ -4894,8 +4894,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.2.0",
         "Code": "6.2.1",
         "ReferenceCode": null,
         "Name": "Reti di raccolta",
@@ -4960,8 +4960,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.2.0",
         "Code": "6.2.2",
         "ReferenceCode": null,
         "Name": "Dispersori",
@@ -5010,8 +5010,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.0.0",
         "Code": "6.3.0",
         "ReferenceCode": null,
         "Name": "Impianto parafulmine",
@@ -5075,8 +5075,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.3.0",
         "Code": "6.3.1",
         "ReferenceCode": null,
         "Name": "Elementi di captazione",
@@ -5123,8 +5123,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.3.0",
         "Code": "6.3.2",
         "ReferenceCode": null,
         "Name": "Rete",
@@ -5187,8 +5187,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.3.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.3.0",
         "Code": "6.3.3",
         "ReferenceCode": null,
         "Name": "Dispersori",
@@ -5235,8 +5235,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.0.0",
         "Code": "6.4.0",
         "ReferenceCode": null,
         "Name": "Impianto antifurto ed antiintrusione",
@@ -5308,8 +5308,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.4.0",
         "Code": "6.4.1",
         "ReferenceCode": null,
         "Name": "Alimentazione",
@@ -5369,8 +5369,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.4.0",
         "Code": "6.4.2",
         "ReferenceCode": null,
         "Name": "Rilevatori e trasduttori",
@@ -5422,8 +5422,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.4.0",
         "Code": "6.4.3",
         "ReferenceCode": null,
         "Name": "Rete",
@@ -5483,8 +5483,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "6.4.0",
+        "ClassType": "Class",
+        "ParentClassCode": "6.4.0",
         "Code": "6.4.4",
         "ReferenceCode": null,
         "Name": "Allarmi",
@@ -5536,7 +5536,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "7.0.0",
         "ReferenceCode": null,
         "Name": "Attrezzatura interna",
@@ -5569,8 +5569,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "7.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "7.0.0",
         "Code": "7.1.0",
         "ReferenceCode": null,
         "Name": "Arredo domestico",
@@ -5603,8 +5603,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "7.1.0",
+        "ClassType": "Class",
+        "ParentClassCode": "7.1.0",
         "Code": "7.1.1",
         "ReferenceCode": null,
         "Name": "Pareti contenitore",
@@ -5630,8 +5630,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "7.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "7.0.0",
         "Code": "7.2.0",
         "ReferenceCode": null,
         "Name": "Blocco servizi",
@@ -5664,7 +5664,7 @@
         ]
       },
       {
-        "ClassificationType": "Class",
+        "ClassType": "Class",
         "Code": "8.0.0",
         "ReferenceCode": null,
         "Name": "Attrezzatura esterna",
@@ -5696,8 +5696,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "8.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "8.0.0",
         "Code": "8.1.0",
         "ReferenceCode": null,
         "Name": "Arredi esterni collettivi",
@@ -5727,8 +5727,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "8.0.0",
+        "ClassType": "Class",
+        "ParentClassCode": "8.0.0",
         "Code": "8.2.0",
         "ReferenceCode": null,
         "Name": "Allestimenti esterni",
@@ -5760,8 +5760,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "8.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "8.2.0",
         "Code": "8.2.1",
         "ReferenceCode": null,
         "Name": "Recinzioni",
@@ -5786,8 +5786,8 @@
         ]
       },
       {
-        "ClassificationType": "Class",
-        "ParentClassificationCode": "8.2.0",
+        "ClassType": "Class",
+        "ParentClassCode": "8.2.0",
         "Code": "8.2.2",
         "ReferenceCode": null,
         "Name": "Pavimentazione esterna",
