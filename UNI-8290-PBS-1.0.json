@@ -5534,6 +5534,134 @@
         "CountriesOfUse": [
           "IT"
         ]
+      },
+      {
+        "ClassificationType": "Class",
+        "Code": "7.0.0",
+        "ReferenceCode": null,
+        "Name": "Attrezzatura interna",
+        "Definition": "Insieme delle unità tecnologiche e degli elementi tecnici connessi con il sistema edilizio aventi funzione di consentire o facilitare l'esercizio di attività degli utenti negli spazi interni del sistema edilizio stesso",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcAudioVisualApplianceType",
+          "IfcCommunicationsApplianceType",
+          "IfcMobileTelecommunicationsApplianceType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "7.0.0",
+        "Code": "7.1.0",
+        "ReferenceCode": null,
+        "Name": "Arredo domestico",
+        "Definition": "Insieme di elementi tecnici connessi con il sistema edilizio, quali mobilio e suppellettili, destinato ad attrezzare gli spazi interni",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcAudioVisualApplianceType",
+          "IfcCommunicationsApplianceType",
+          "IfcMobileTelecommunicationsApplianceType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "7.1.0",
+        "Code": "7.1.1",
+        "ReferenceCode": null,
+        "Name": "Pareti contenitore",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "7.0.0",
+        "Code": "7.2.0",
+        "ReferenceCode": null,
+        "Name": "Blocco servizi",
+        "Definition": "Insieme di elementi tecnici connessi con il sistema edilizio, specializzati per fornire in forma aggregata servizi richiesti da particolari attività degli utenti",
+        "RelatedIfcEntityNamesList": [
+          "IfcWallType",
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcAudioVisualApplianceType",
+          "IfcCommunicationsApplianceType",
+          "IfcMobileTelecommunicationsApplianceType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
       }
     ]
   }
