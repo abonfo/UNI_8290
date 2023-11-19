@@ -5662,6 +5662,153 @@
         "CountriesOfUse": [
           "IT"
         ]
+      },
+      {
+        "ClassificationType": "Class",
+        "Code": "8.0.0",
+        "ReferenceCode": null,
+        "Name": "Attrezzatura esterna",
+        "Definition": "Insieme delle unità tecnologiche e di elementi tecnici aventi funzione di consentire o facilitare l'esercizio di attività degli utenti negli spazi esterni connessi con il sistema edilizio stesso",
+        "RelatedIfcEntityNamesList": [
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcShadingDeviceType",
+          "IfcPavementType",
+          "IfcRailingType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "8.0.0",
+        "Code": "8.1.0",
+        "ReferenceCode": null,
+        "Name": "Arredi esterni collettivi",
+        "Definition": "Insieme degli elementi tecnici destinati ad attrezzare gli spazi aperti dei complessi insediativi residenziali",
+        "RelatedIfcEntityNamesList": [
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcShadingDeviceType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "8.0.0",
+        "Code": "8.2.0",
+        "ReferenceCode": null,
+        "Name": "Allestimenti esterni",
+        "Definition": "Insieme di elementi tecnici destinati ad attrezzare e delimitare gli spazi aperti connessi con il sistema edilizio stesso",
+        "RelatedIfcEntityNamesList": [
+          "IfcElementAssemblyType",
+          "IfcFurnishingElementType",
+          "IfcShadingDeviceType",
+          "IfcPavementType",
+          "IfcRailingType",
+          "IfcElectricApplianceType",
+          "IfcLampType",
+          "IfcLightFixtureType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "8.2.0",
+        "Code": "8.2.1",
+        "ReferenceCode": null,
+        "Name": "Recinzioni",
+        "RelatedIfcEntityNamesList": [
+          "IfcElementAssemblyType",
+          "IfcRailingType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
+      },
+      {
+        "ClassificationType": "Class",
+        "ParentClassificationCode": "8.2.0",
+        "Code": "8.2.2",
+        "ReferenceCode": null,
+        "Name": "Pavimentazione esterna",
+        "RelatedIfcEntityNamesList": [
+          "IfcPavementType",
+          "IfcPlateType",
+          "IfcFastenerType",
+          "IfcMechanicalFastenerType",
+          "IfcCoveringType",
+          "IfcSignType",
+          "IfcSignalType"
+        ],      
+        "Status": "Active",
+        "ActivationDateUtc": "2023-11-01T00:00:00+01:00",
+        "VersionDateUtc": "2023-11-01T00:00:00+01:00",
+        "RevisionNumber": 1,
+        "CreatorLanguageIsoCode": "it-IT",
+        "CountryOfOrigin": "IT",
+        "CountriesOfUse": [
+          "IT"
+        ]
       }
     ]
   }
