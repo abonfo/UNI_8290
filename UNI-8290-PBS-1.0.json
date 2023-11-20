@@ -1,6 +1,7 @@
 {
     "ModelVersion": "2.0",
     "OrganizationCode": "AnBo",
+    "DictionaryName": "UNI 8290",
     "DictionaryCode": "UNI8290",
     "DictionaryVersion": "1.0",
     "DomainCode": "UNI8290",
@@ -11,7 +12,6 @@
     "MoreInfoUrl": "https://studio.andrebonfanti.it/bsdd-dictionary-uni-8290-classification/",
     "UseOwnUri": false,
     "LanguageIsoCode": "it-IT",
-    "LanguageOnly": true,
     "License": "CC BY-SA 4.0",
     "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "QualityAssuranceProcedure": "Private",
