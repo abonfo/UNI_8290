@@ -1353,7 +1353,6 @@
         "Definition": "Insieme delle unità tecnologiche e degli elementi tecnici del sistema edilizio aventi funzione di consentire l'utilizzazione di flussi energetici, informativi e materiali richiesti dagli utenti e di consentire il conseguente allontanamento degli eventuali prodotti di scarto",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1464,7 +1463,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di creare e mantenere negli spazi interni del sistema edilizio stesso determinate condizioni termiche, di umidità e ventilazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1568,7 +1566,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1631,7 +1628,6 @@
         "Name": "Gruppi termici",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1699,7 +1695,6 @@
         "Name": "Centrali di trattamento fluidi",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1760,7 +1755,6 @@
         "Name": "Reti di distribuzione e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1821,7 +1815,6 @@
         "Name": "Reti di scarico condensa",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1873,7 +1866,6 @@
         "Name": "Canne di esalazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -1932,7 +1924,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di addurre, distribuire e consentire l'utilizzazione di acqua nell'ambito degli spazi interni del sistema edilizio stesso o degli spazi esterni connessi",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2022,7 +2013,6 @@
         "Name": "Allacciamenti",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2080,7 +2070,6 @@
         "Name": "Macchine idrauliche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2164,7 +2153,6 @@
         "Name": "Accumuli",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2249,7 +2237,6 @@
         "Name": "Riscaldatori",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2335,7 +2322,6 @@
         "Name": "Reti di distribuzione acqua fredda e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2417,7 +2403,6 @@
         "Name": "Reti di distribuzione acqua calda e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2499,7 +2484,6 @@
         "Name": "Reti di ricircolo dell'acqua calda",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2618,7 +2602,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di allontanare le acque usate e le acque meteoriche fino alle reti esterne di allontanamento",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2679,7 +2662,6 @@
         "Name": "Reti di scarico acque fecali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2740,7 +2722,6 @@
         "Name": "Reti di scarico acque domestiche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2801,7 +2782,6 @@
         "Name": "Reti di scarico acque meteoriche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2862,7 +2842,6 @@
         "Name": "Reti di ventilazione secondaria",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -2922,7 +2901,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di allontanare flussi aeriformi raccolti dagli spazi interni del sistema edilizio stesso",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3006,7 +2984,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3062,7 +3039,6 @@
         "Name": "Macchine",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3134,7 +3110,6 @@
         "Name": "Reti di canalizzazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3338,7 +3313,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di addurre, distribuire ed erogare combustibili gassosi per usi domestici",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3504,7 +3478,6 @@
         "Name": "Reti di distribuzione e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3589,7 +3562,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di addurre, distribuire ed erogare energia elettrica per usi domestici",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3667,7 +3639,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3720,7 +3691,6 @@
         "Name": "Allacciamenti",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3774,7 +3744,6 @@
         "Name": "Apparecchiature elettriche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3838,7 +3807,6 @@
         "Name": "Reti di distribuzione e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3898,7 +3866,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di distribuire e regolare flussi informativi telefonici, citofonici e televisivi, nonché di comandare a distanza apparecchiature elettro-meccaniche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -3969,7 +3936,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4022,7 +3988,6 @@
         "Name": "Macchine",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4079,7 +4044,6 @@
         "Name": "Reti di distribuzione e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4141,7 +4105,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di trasportare persone o cose",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4219,7 +4182,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4292,7 +4254,6 @@
         "Name": "Macchine",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4357,7 +4318,6 @@
         "Name": "Parti mobili",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4416,7 +4376,6 @@
         "Definition": "Insieme delle unità tecnologiche e degli elementi tecnici del sistema edilizio aventi funzione di tutelare gli utenti e/o il sistema edilizio stesso a fronte di situazioni di pericolo",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4499,7 +4458,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di prevenire, eliminare, limitare o segnalare incendi",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4581,7 +4539,6 @@
         "Name": "Allacciamenti",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4643,7 +4600,6 @@
         "Name": "Rilevatori e trasduttori",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4705,7 +4661,6 @@
         "Name": "Reti di distribuzione e terminali",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4767,7 +4722,6 @@
         "Name": "Allarmi",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4835,7 +4789,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di collegare ad un conduttore posto a potenziale nullo determinati punti elettricamente definiti",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4901,7 +4854,6 @@
         "Name": "Reti di raccolta",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -4967,7 +4919,6 @@
         "Name": "Dispersori",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5018,7 +4969,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di proteggere gli utenti e il sistema edilizio stesso da scariche elettriche atmosferiche",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5082,7 +5032,6 @@
         "Name": "Elementi di captazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5130,7 +5079,6 @@
         "Name": "Rete",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5194,7 +5142,6 @@
         "Name": "Dispersori",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5243,7 +5190,6 @@
         "Definition": "Insieme degli elementi tecnici del sistema edilizio aventi funzione di prevenire, eliminare o segnalare intrusioni umane o di animali, indesiderate",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5315,7 +5261,6 @@
         "Name": "Alimentazione",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5376,7 +5321,6 @@
         "Name": "Rilevatori e trasduttori",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5429,7 +5373,6 @@
         "Name": "Rete",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
@@ -5490,7 +5433,6 @@
         "Name": "Allarmi",
         "RelatedIfcEntityNamesList": [
           "IfcDistributionChamberElement",
-          "IfcDistributionCircuit",
           "IfcDistributionControlElement",
           "IfcDistributionFlowElement",
           "IfcDistributionPort",
