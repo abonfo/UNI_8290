@@ -8,7 +8,7 @@ Each classification level in the UNI 8290 json dictionary contains one or more r
 
 ## The UNI 8290 bSDD dictionary model
 
-The UNI 8290 dictionary is available in the buildingSMART databse, and its structure can be viewed at this link: https://search.bsdd.buildingsmart.org/uri/AnBo/UNI8290/1.0.
+The UNI 8290 dictionary is available in the buildingSMART database, and its structure can be viewed at this link: https://search.bsdd.buildingsmart.org/uri/AnBo/UNI8290/1.0.
 
 The UNI 8290 bSDD dictionary is mapped against the `Dictionary` and the `Class` concepts of the [buildingSMART Data Dictionary model](https://github.com/buildingSMART/bSDD/blob/master/Documentation/bSDD%20JSON%20import%20model.md). 
 
