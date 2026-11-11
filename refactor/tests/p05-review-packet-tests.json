@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "hard_failure_count": 0
+  },
+  "tests": [
+    {
+      "id": "eight_review_branches",
+      "status": "pass",
+      "detail": "8"
+    },
+    {
+      "id": "all_117_decisions_in_packet",
+      "status": "pass",
+      "detail": "117"
+    },
+    {
+      "id": "no_silent_branch_approval",
+      "status": "pass",
+      "detail": "Counter({'awaiting_user_or_domain_expert_approval': 8})"
+    },
+    {
+      "id": "all_29_non_high_confidence_assessed",
+      "status": "pass",
+      "detail": "29"
+    },
+    {
+      "id": "unresolved_decisions_visible",
+      "status": "pass",
+      "detail": "12"
+    }
+  ]
+}

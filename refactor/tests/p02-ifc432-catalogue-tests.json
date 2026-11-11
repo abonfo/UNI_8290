@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "official_release": "IFC 4.3.2.0 (IFC4X3_ADD2) official",
+    "official_documentation_url": "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/",
+    "official_normative_annex_url": "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/annex-a.html",
+    "schema_identifier": "IFC4X3_DEV_60a6175",
+    "repository_url": "https://github.com/buildingSMART/IFC4.3.x-output-2",
+    "repository_commit": "3ddf36033cd503acd2f6e06dd3923940a3950914",
+    "repository_express_path": "IFC/RELEASE/IFC4_3/IFC4X3_DEV_60a6175.exp",
+    "repository_express_blob_sha": "67f77d54c39aa6889918483268feaf892b44af0a",
+    "local_express_sha256": "E1524D66A7BE3FBBE2D1AF58588A0E15C3898E9633F095B9AAA7D55DD6052E1D",
+    "local_documentation_archive_sha256": "9F0E928ACB8BE9BAAD4DC33F5AAE0C12ADBAB9C92BAD28A6EB20D38EF503BB0A",
+    "entity_count": 876,
+    "type_count": 436,
+    "function_count": 48,
+    "rule_count": 2
+  },
+  "tests": [
+    {
+      "id": "express_sha256",
+      "status": "pass",
+      "detail": "E1524D66A7BE3FBBE2D1AF58588A0E15C3898E9633F095B9AAA7D55DD6052E1D"
+    },
+    {
+      "id": "documentation_archive_sha256",
+      "status": "pass",
+      "detail": "9F0E928ACB8BE9BAAD4DC33F5AAE0C12ADBAB9C92BAD28A6EB20D38EF503BB0A"
+    },
+    {
+      "id": "schema_identifier",
+      "status": "pass",
+      "detail": "IFC4X3_DEV_60a6175"
+    },
+    {
+      "id": "entity_count",
+      "status": "pass",
+      "detail": "876"
+    },
+    {
+      "id": "type_count",
+      "status": "pass",
+      "detail": "436"
+    },
+    {
+      "id": "unique_entity_names",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "unique_type_names",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "parent_resolution",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "documentation_page_coverage",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "short_definition_coverage",
+      "status": "warning",
+      "detail": "Missing 1: ['IfcGridPlacement']"
+    },
+    {
+      "id": "predefined_enum_resolution",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "documentation_non_entity_pages",
+      "status": "info",
+      "detail": "Lexical IFC pages not declared as ENTITY: 486"
+    }
+  ]
+}

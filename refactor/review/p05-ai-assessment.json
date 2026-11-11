@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "phase": "P05",
+    "reviewer": "Codex (AI semantic assessment)",
+    "date": "2026-11-11",
+    "basis": "Protected UNI source definitions and hierarchy, pinned IFC 4.3.2 catalogue, and mapping policy D01-D09",
+    "disposition_meaning": {
+      "accept": "The existing proposal is defensible under its recorded condition.",
+      "revise": "The proposal was changed in mapping-proposals.json.",
+      "needs_user": "UNI scope or intended IFC modelling practice cannot be established from available evidence."
+    }
+  },
+  "decisions": {
+    "1.2.3": {"disposition": "revise", "reason": "IfcElementAssembly has direct frame and truss types. Individual beams and members are components, not spatial structures."},
+    "1.3.0": {"disposition": "accept", "reason": "The UNI definition explicitly concerns resisting earth loads. Retaining walls and structural slabs can directly perform that role under the stated condition."},
+    "1.3.2": {"disposition": "accept", "reason": "A horizontal structural slab can resist earth loads; the condition must exclude ordinary floors and roof slabs."},
+    "2.2.2": {"disposition": "needs_user", "reason": "The source has no definition. IFC distinguishes trapdoors and windows, but the intended range of lower horizontal closures is not documented."},
+    "3.0.0": {"disposition": "accept", "reason": "The UNI aggregate covers several kinds of internal subdivision; the catalogue has no concrete system occurrence with that direct scope. Empty is defensible."},
+    "3.1.3": {"disposition": "needs_user", "reason": "IfcRailing protects users; IfcImpactProtectionDevice protects built elements. The undefined UNI leaf does not establish whether both are intended."},
+    "3.2.3": {"disposition": "accept", "reason": "IfcDoor/TRAPDOOR directly represents an internal horizontal opening closure."},
+    "4.0.0": {"disposition": "accept", "reason": "The source aggregate spans external space division in several orientations; no concrete IFC system occurrence matches it directly. Empty is defensible."},
+    "4.1.0": {"disposition": "accept", "reason": "Walls, boundary railings and gates can themselves divide external space when the recorded site-boundary role applies."},
+    "4.2.0": {"disposition": "accept", "reason": "A slab can directly form an external horizontal platform or subdivision under the recorded role condition."},
+    "4.2.2": {"disposition": "accept", "reason": "IfcSlab can form the deck of an elevated walkway; this selection excludes railings and other possible components."},
+    "5.1.1": {"disposition": "needs_user", "reason": "The undefined Alimentazione leaf does not say whether HVAC supply means fuel, thermal fluid, electric power, or a subset."},
+    "5.1.3": {"disposition": "accept", "reason": "Air handlers, chillers, cooling towers and heat exchangers directly treat HVAC air or liquid; retain only occurrences actually serving this central function."},
+    "5.4.1": {"disposition": "needs_user", "reason": "The undefined Alimentazione leaf does not establish whether this is the electrical feed or another input to the aeriform-disposal system."},
+    "5.5.0": {"disposition": "accept", "reason": "IfcDistributionSystem has MUNICIPALSOLIDWASTE and DISPOSAL types; the UNI definition explicitly includes removal and accumulation of solid waste."},
+    "5.5.2": {"disposition": "revise", "reason": "IfcDuctSegment can form a ventilation shaft. IfcChimney is defined for combustion flues, and IfcStackTerminal represents a cap/terminal rather than the shaft."},
+    "5.7.1": {"disposition": "needs_user", "reason": "The undefined electrical Alimentazione leaf does not establish whether the main board is supply or distribution, or which generation and storage equipment belongs here."},
+    "5.8.1": {"disposition": "needs_user", "reason": "The undefined telecommunications Alimentazione leaf could mean incoming signal/media or electrical power for equipment; these imply different IFC selections."},
+    "5.9.1": {"disposition": "needs_user", "reason": "The undefined transport Alimentazione leaf does not establish whether it includes the drive motor and connection, or only incoming power supply."},
+    "5.9.3": {"disposition": "needs_user", "reason": "IfcTransportElement may represent the complete machine, while IfcConveyorSegment is a system segment. The intended modelling of Parti mobili is unspecified."},
+    "6.2.2": {"disposition": "needs_user", "reason": "IFC has no dedicated earth-electrode entity; whether an electrode is modelled as IfcCableSegment/CONDUCTORSEGMENT is a project convention."},
+    "6.3.1": {"disposition": "needs_user", "reason": "Whether lightning air-termination elements are modelled as IfcCableSegment/CONDUCTORSEGMENT is a project convention."},
+    "6.3.3": {"disposition": "needs_user", "reason": "Whether lightning earth electrodes are modelled as IfcCableSegment/CONDUCTORSEGMENT is a project convention."},
+    "6.4.1": {"disposition": "accept", "reason": "Dedicated power cabling and a battery or UPS can directly supply the anti-intrusion system under the recorded condition."},
+    "7.0.0": {"disposition": "accept", "reason": "An internal furnishing occurrence can directly receive the broad internal-equipment code; the mapping need not cover every descendant kind."},
+    "7.1.1": {"disposition": "revise", "reason": "IfcFurniture can represent a complete storage cabinet or wall. IfcSystemFurnitureElement/PANEL is a component of modular furniture."},
+    "7.2.0": {"disposition": "needs_user", "reason": "The source defines an aggregated service block, but does not establish whether a governed IfcElementAssembly convention exists or an empty mapping is intended."},
+    "8.0.0": {"disposition": "revise", "reason": "An outdoor furnishing can directly receive the broad external-equipment code, although IfcFurnishingElement does not cover fences or pavements. Clarified the condition."},
+    "8.2.0": {"disposition": "accept", "reason": "The source aggregate includes outdoor installations and boundaries; fences and pavements are separately mapped at child level. No single concrete occurrence covers this aggregate."}
+  }
+}

@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"powerquery.client.additionalSymbolsDirectories": [
+			"d:/work_dev/BIM/bSDD/UNI_8290/.vscode/excel-pq-symbols"
+		]
+	}
 }

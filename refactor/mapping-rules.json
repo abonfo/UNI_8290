@@ -1,0 +1,241 @@
+{
+  "policy_version": "1.0",
+  "target_schema": "IFC 4.3.2.0 (IFC4X3_ADD2)",
+  "purpose": "Rules for selecting direct, hierarchy-aware UNI 8290 to IFC occurrence mappings.",
+  "required_inputs": [
+    "uni_code",
+    "uni_level",
+    "full_it_name_path",
+    "functional_interpretation",
+    "ifc_entity",
+    "ifc_inheritance_chain",
+    "ifc_semantic_definition",
+    "ifc_eligibility"
+  ],
+  "acceptance_question": "Can an instance of this IFC entity itself honestly receive this UNI code in the context of the full UNI parent path?",
+  "selection_gates": [
+    {
+      "id": "G01_SCHEMA_EXISTENCE",
+      "rule": "The entity must exist in the pinned IFC 4.3.2 entity catalogue."
+    },
+    {
+      "id": "G02_TECHNICAL_ELIGIBILITY",
+      "rule": "The entity must be a concrete object occurrence or system eligible for bSDD RelatedIfcEntityNamesList review; abstract, type, relationship, property, context, measure, select, enumeration, function, rule, and resource concepts are excluded."
+    },
+    {
+      "id": "G03_FULL_PATH_CONTEXT",
+      "rule": "The meaning must be derived from the complete UNI hierarchy, never from the leaf label alone."
+    },
+    {
+      "id": "G04_DIRECT_CLASSIFIABILITY",
+      "rule": "The IFC occurrence itself must perform or embody the UNI function; mere containment, connection, support, fastening, monitoring, or possible participation is insufficient."
+    },
+    {
+      "id": "G05_SPECIFICITY",
+      "rule": "Prefer the closest defensible entity or small entity family. Do not add a superclass and all of its descendants merely for coverage."
+    },
+    {
+      "id": "G06_DEPRECATION",
+      "rule": "Avoid deprecated entities when a supported concrete replacement exists; otherwise record the deprecation condition."
+    },
+    {
+      "id": "G07_CONDITION_DISCLOSURE",
+      "rule": "Record any required PredefinedType, object property, spatial role, load-bearing role, or system-membership condition that RelatedIfcEntityNamesList cannot express."
+    },
+    {
+      "id": "G08_NO_DESCENDANT_UNION",
+      "rule": "A parent mapping is an independent semantic decision and is not the automatic union of child mappings."
+    }
+  ],
+  "level_policy": {
+    "1": {
+      "default_scope": "one or a few broad concrete occurrence or system concepts",
+      "review_trigger": "more than 8 selected entities"
+    },
+    "2": {
+      "default_scope": "a system, functional grouping, assembly, or controlled occurrence family",
+      "review_trigger": "more than 12 selected entities"
+    },
+    "3": {
+      "default_scope": "an exact occurrence entity or small directly applicable family",
+      "review_trigger": "more than 8 selected entities"
+    }
+  },
+  "reason_codes": {
+    "selected": [
+      {
+        "code": "SEL_DIRECT",
+        "meaning": "The entity directly represents the UNI technical element or function."
+      },
+      {
+        "code": "SEL_CONTROLLED_FAMILY",
+        "meaning": "Each selected entity belongs to a small, explicitly bounded family that directly represents the UNI concept."
+      },
+      {
+        "code": "SEL_SYSTEM_CONTEXT",
+        "meaning": "The entity is directly classifiable only with the recorded distribution-system or functional-system context."
+      },
+      {
+        "code": "SEL_PREDEFINED_TYPE",
+        "meaning": "The match is valid only for the recorded IFC PredefinedType value or values."
+      },
+      {
+        "code": "SEL_PROPERTY_CONTEXT",
+        "meaning": "The match is valid only when a recorded property or role condition is true."
+      },
+      {
+        "code": "SEL_BROAD_PARENT",
+        "meaning": "A broad concrete IFC concept is used for a UNI level-1 or level-2 aggregate without inheriting the union of descendants."
+      }
+    ],
+    "rejected": [
+      {
+        "code": "REJ_NOT_IN_SCHEMA",
+        "meaning": "The name is not an IFC 4.3.2 entity."
+      },
+      {
+        "code": "REJ_ABSTRACT",
+        "meaning": "The IFC entity is abstract."
+      },
+      {
+        "code": "REJ_TYPE_ENTITY",
+        "meaning": "The IFC entity represents a type object rather than an occurrence."
+      },
+      {
+        "code": "REJ_RELATIONSHIP_OR_RESOURCE",
+        "meaning": "The IFC concept is a relationship, property definition, measure, select, enumeration, context, or resource."
+      },
+      {
+        "code": "REJ_COMPONENT_ONLY",
+        "meaning": "The entity may be a component or participant but does not itself carry the UNI function."
+      },
+      {
+        "code": "REJ_WRONG_BRANCH_CONTEXT",
+        "meaning": "The entity may fit the leaf word in another system but not this complete UNI hierarchy path."
+      },
+      {
+        "code": "REJ_TOO_BROAD",
+        "meaning": "The entity is semantically broader than the UNI class and lacks a recordable condition that makes the match reliable."
+      },
+      {
+        "code": "REJ_TOO_NARROW_OR_OPTIONAL",
+        "meaning": "The entity represents only one optional realization and selecting it would overstate the UNI class."
+      },
+      {
+        "code": "REJ_DEPRECATED_REPLACED",
+        "meaning": "The deprecated entity is superseded by a supported concrete alternative."
+      },
+      {
+        "code": "REJ_PROXY_FALLBACK",
+        "meaning": "A proxy or generic fallback is unnecessary because a proper entity exists."
+      },
+      {
+        "code": "REJ_DESCENDANT_UNION",
+        "meaning": "The proposal arose only by copying or unioning descendant mappings into a parent."
+      },
+      {
+        "code": "REJ_UNRELATED",
+        "meaning": "No defensible direct semantic relationship exists."
+      }
+    ],
+    "screening": [
+      {
+        "code": "SCR_SELECTED",
+        "meaning": "Selected by at least one UNI decision."
+      },
+      {
+        "code": "SCR_NOT_APPLICABLE",
+        "meaning": "Eligible IFC entity was considered but no UNI class directly applies."
+      },
+      {
+        "code": "SCR_TECHNICALLY_INELIGIBLE",
+        "meaning": "Excluded by IFC technical eligibility before semantic comparison."
+      }
+    ]
+  },
+  "branch_rules": [
+    {
+      "uni_root": "1.0.0",
+      "branch": "load-bearing structures",
+      "interpretation": "Classify elements by their structural and load-transfer role, not by material, reinforcement, fastening, or possible membership.",
+      "preferred_families": ["IfcFooting", "IfcDeepFoundation", "IfcPile", "IfcCaissonFoundation", "IfcWall", "IfcColumn", "IfcBeam", "IfcMember", "IfcSlab", "IfcPlate", "IfcRoof", "IfcStair", "IfcRamp"],
+      "conditions": ["Use load-bearing or structural-role context where an entity can also be non-structural.", "Treat reinforcement, tendons, bearings, fasteners, and vibration devices as separate elements only when the UNI leaf directly names their function."],
+      "common_rejections": ["IfcFastener", "IfcMechanicalFastener", "IfcReinforcingBar", "IfcReinforcingMesh"]
+    },
+    {
+      "uni_root": "2.0.0",
+      "branch": "enclosures",
+      "interpretation": "Classify exterior horizontal, vertical, and upper enclosure elements by enclosing role and full path; distinguish host construction from dependent finish.",
+      "preferred_families": ["IfcWall", "IfcCurtainWall", "IfcWindow", "IfcDoor", "IfcSlab", "IfcRoof", "IfcCovering", "IfcShadingDevice"],
+      "conditions": ["IfcCovering is valid for a dependent finish or covering, not as a universal enclosure.", "Record exterior and orientation context when IFC entity alone does not distinguish it."],
+      "common_rejections": ["IfcPlate", "IfcFastener", "IfcMechanicalFastener"]
+    },
+    {
+      "uni_root": "3.0.0",
+      "branch": "internal partitions",
+      "interpretation": "Classify non-load-bearing internal subdivision, closure, finish, and circulation elements; record internal and non-load-bearing conditions where necessary.",
+      "preferred_families": ["IfcWall", "IfcDoor", "IfcWindow", "IfcSlab", "IfcCovering", "IfcStair", "IfcRamp", "IfcRailing"],
+      "conditions": ["Do not classify an element here solely because it is physically inside a building.", "Distinguish partitions from structural walls using role or property context."],
+      "common_rejections": ["IfcFastener", "IfcMechanicalFastener", "IfcPlate"]
+    },
+    {
+      "uni_root": "4.0.0",
+      "branch": "external partitions",
+      "interpretation": "Classify external site subdivision, retaining, protection, and access elements according to the complete branch path.",
+      "preferred_families": ["IfcWall", "IfcDoor", "IfcRailing", "IfcEarthworksElement", "IfcGeotechnicalElement"],
+      "conditions": ["Do not confuse an exterior building enclosure with an external site partition.", "Record retaining, boundary, fence, gate, or access role when required; IFC 4.3.2 has no IfcFence or IfcGate occurrence entity."],
+      "common_rejections": ["IfcCovering", "IfcFastener", "IfcMechanicalFastener"]
+    },
+    {
+      "uni_root": "5.0.0",
+      "branch": "building-service systems",
+      "interpretation": "Read Alimentazione, Macchine, Rete, Terminali, and Allacciamenti through their parent service. Select a distribution system for a system-level unit and media-specific occurrences for technical-element leaves.",
+      "preferred_families": ["IfcDistributionSystem", "IfcDistributionElement", "IfcDistributionFlowElement", "IfcFlowSegment", "IfcFlowFitting", "IfcFlowController", "IfcFlowMovingDevice", "IfcFlowStorageDevice", "IfcEnergyConversionDevice", "IfcFlowTerminal", "IfcFlowTreatmentDevice"],
+      "conditions": ["Record the IFC distribution-system PredefinedType or media context.", "A generic flow class must not be copied across HVAC, plumbing, gas, electrical, communications, lifting, or waste branches without a direct contextual rationale.", "Network branches may include segments and fittings; connection branches require entities that themselves represent the connection, not every connected participant."],
+      "common_rejections": ["IfcFastener", "IfcMechanicalFastener", "IfcPlate", "IfcCovering"]
+    },
+    {
+      "uni_root": "6.0.0",
+      "branch": "safety systems",
+      "interpretation": "Distinguish fire, grounding, lightning, and anti-intrusion systems by the parent path; map detection, alarm, protection, and distribution occurrences only to the function they directly perform.",
+      "preferred_families": ["IfcDistributionSystem", "IfcAlarm", "IfcSensor", "IfcController", "IfcProtectiveDevice", "IfcFireSuppressionTerminal", "IfcInterceptor", "IfcCableCarrierSegment", "IfcCableSegment"],
+      "conditions": ["Use PredefinedType and system context to separate fire, security, earth, and lightning functions.", "Do not infer a safety classification merely because equipment may be monitored or protected."],
+      "common_rejections": ["IfcSignal", "IfcSign", "IfcFastener", "IfcMechanicalFastener"]
+    },
+    {
+      "uni_root": "7.0.0",
+      "branch": "internal equipment",
+      "interpretation": "Classify fixed or modelled internal equipment by its direct furnishing, functional, or collective equipment role, not merely because it is indoors.",
+      "preferred_families": ["IfcFurniture", "IfcFurnishingElement", "IfcSystemFurnitureElement", "IfcAudioVisualAppliance", "IfcCommunicationsAppliance", "IfcMedicalDevice", "IfcSanitaryTerminal"],
+      "conditions": ["Exclude loose, unmodelled, or purely spatial inventory concepts.", "Service-connected equipment remains in the service branch when its primary UNI function is system delivery."],
+      "common_rejections": ["IfcBuildingElementProxy", "IfcFastener", "IfcMechanicalFastener"]
+    },
+    {
+      "uni_root": "8.0.0",
+      "branch": "external equipment",
+      "interpretation": "Classify external fixed equipment, landscaping construction, and site circulation surfaces by direct function and placement context.",
+      "preferred_families": ["IfcPavement", "IfcCourse", "IfcKerb", "IfcFurniture", "IfcGeographicElement", "IfcCivilElement", "IfcCovering"],
+      "conditions": ["Prefer IfcPavement for an external pavement; use IfcCovering only for a dependent finish.", "Record external/site context where the IFC entity can also occur internally."],
+      "common_rejections": ["IfcPlate", "IfcFastener", "IfcMechanicalFastener"]
+    }
+  ],
+  "decision_record_requirements": {
+    "required_fields": [
+      "uni_code",
+      "full_hierarchy",
+      "functional_interpretation",
+      "current_ifc_mappings",
+      "candidate_ifc_entities",
+      "selected_ifc_entities",
+      "ifc_conditions",
+      "rejected_current_mappings",
+      "decision_rationale",
+      "confidence",
+      "review_state"
+    ],
+    "confidence_values": ["high", "medium", "domain_review_required"],
+    "review_state_values": ["pending", "approved", "revise"],
+    "empty_selection_allowed": true,
+    "empty_selection_rule": "An empty mapping is preferable to a false match and must carry an explicit rationale."
+  }
+}

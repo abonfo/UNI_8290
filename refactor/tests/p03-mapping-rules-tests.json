@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "policy_version": "1.0",
+    "uni_root_count": 8,
+    "ifc_entity_count_checked": 876,
+    "reason_code_count": 21,
+    "hard_failure_count": 0
+  },
+  "tests": [
+    {
+      "id": "eight_selection_gates",
+      "status": "pass",
+      "detail": "['G01_SCHEMA_EXISTENCE', 'G02_TECHNICAL_ELIGIBILITY', 'G03_FULL_PATH_CONTEXT', 'G04_DIRECT_CLASSIFIABILITY', 'G05_SPECIFICITY', 'G06_DEPRECATION', 'G07_CONDITION_DISCLOSURE', 'G08_NO_DESCENDANT_UNION']"
+    },
+    {
+      "id": "full_path_is_required",
+      "status": "pass",
+      "detail": "['full_it_name_path', 'functional_interpretation', 'ifc_eligibility', 'ifc_entity', 'ifc_inheritance_chain', 'ifc_semantic_definition', 'uni_code', 'uni_level']"
+    },
+    {
+      "id": "all_uni_roots_have_one_branch_rule",
+      "status": "pass",
+      "detail": "['1.0.0', '2.0.0', '3.0.0', '4.0.0', '5.0.0', '6.0.0', '7.0.0', '8.0.0']"
+    },
+    {
+      "id": "preferred_ifc_entities_exist",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "reason_codes_unique",
+      "status": "pass",
+      "detail": "['SEL_DIRECT', 'SEL_CONTROLLED_FAMILY', 'SEL_SYSTEM_CONTEXT', 'SEL_PREDEFINED_TYPE', 'SEL_PROPERTY_CONTEXT', 'SEL_BROAD_PARENT', 'REJ_NOT_IN_SCHEMA', 'REJ_ABSTRACT', 'REJ_TYPE_ENTITY', 'REJ_RELATIONSHIP_OR_RESOURCE', 'REJ_COMPONENT_ONLY', 'REJ_WRONG_BRANCH_CONTEXT', 'REJ_TOO_BROAD', 'REJ_TOO_NARROW_OR_OPTIONAL', 'REJ_DEPRECATED_REPLACED', 'REJ_PROXY_FALLBACK', 'REJ_DESCENDANT_UNION', 'REJ_UNRELATED', 'SCR_SELECTED', 'SCR_NOT_APPLICABLE', 'SCR_TECHNICALLY_INELIGIBLE']"
+    },
+    {
+      "id": "selection_and_rejection_codes_exist",
+      "status": "pass",
+      "detail": "present"
+    },
+    {
+      "id": "screening_outcomes_complete",
+      "status": "pass",
+      "detail": "['SCR_SELECTED', 'SCR_NOT_APPLICABLE', 'SCR_TECHNICALLY_INELIGIBLE']"
+    },
+    {
+      "id": "decision_matrix_fields_complete",
+      "status": "pass",
+      "detail": "['candidate_ifc_entities', 'confidence', 'current_ifc_mappings', 'decision_rationale', 'full_hierarchy', 'functional_interpretation', 'ifc_conditions', 'rejected_current_mappings', 'review_state', 'selected_ifc_entities', 'uni_code']"
+    },
+    {
+      "id": "empty_selection_permitted",
+      "status": "pass",
+      "detail": "An empty mapping is preferable to a false match and must carry an explicit rationale."
+    }
+  ]
+}

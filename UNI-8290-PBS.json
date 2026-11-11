@@ -1623,7 +1623,7 @@
       },
       {
         "ClassType": "Class",
-        "ParentClassCode": "5.0.0",
+        "ParentClassCode": "5.1.0",
         "Code": "5.1.2",
         "ReferenceCode": null,
         "Name": "Gruppi termici",

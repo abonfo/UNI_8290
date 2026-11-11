@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "hard_failure_count": 0,
+    "warning_count": 0
+  },
+  "tests": [
+    {
+      "id": "proposal_code_coverage",
+      "status": "pass",
+      "detail": "{'missing': [], 'extra': []}"
+    },
+    {
+      "id": "decision_record_count",
+      "status": "pass",
+      "detail": "117"
+    },
+    {
+      "id": "unique_decision_codes",
+      "status": "pass",
+      "detail": "117"
+    },
+    {
+      "id": "selected_entities_exist",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "selected_entities_technically_eligible",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "selected_decisions_have_rationales",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "all_current_mappings_dispositioned",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "confidence_values_valid",
+      "status": "pass",
+      "detail": "[]"
+    },
+    {
+      "id": "ifc_coverage_count",
+      "status": "pass",
+      "detail": "876"
+    },
+    {
+      "id": "ifc_coverage_unique",
+      "status": "pass",
+      "detail": "876"
+    },
+    {
+      "id": "mapping_cardinality_review",
+      "status": "pass",
+      "detail": "[]"
+    }
+  ]
+}
